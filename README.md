@@ -50,18 +50,18 @@ The node pack is structured in four groups of nodes :
 >    - hough_lines
 
 You can download the following pdf documents for a complete description of the nodes:
-- Nodes Description-Eng.pdf (english)
-- Description Noeuds-Fr.pdf (french)
- 
+- [Nodes Description-Eng.pdf](https://github.com/user-attachments/files/20452240/Nodes.Description-Eng.pdf) (english)
+- [Description Noeuds-Fr.pdf](https://github.com/user-attachments/files/20452272/Description.Noeuds-Fr.pdf) (french) 
+
 ### Examples
 
 #### Open, convert colors and display
 A graph that allows you to open an image, simultaneously convert it to grayscale and invert the RGB channels, and display the result of each conversion.
-cv2_color_conversion.png
+![cv2_color_conversion](https://github.com/user-attachments/assets/9b037a2d-0da0-4896-885e-ce4110630827)
 
 #### Dilate and erode
-A graph that allows you to test the morpho_transform node, a first one in dilate mode and the second one in erode mode, and which displays the result for each of the two nodes.
-cv2_dilate_erode.png  
+A graph that allows you to test the morpho_transform node, a first one in dilate mode and the second one in erode mode, and which displays the result for each of the two nodes. 
+![cv2_dilate_erode](https://github.com/user-attachments/assets/90c235fa-74cb-431e-bdb2-1231984efa89)
 
 #### Find and count contours
 A more complex example... This graph allows you to find contours of blood celles and to count them. It illustrates the use of these nodes :
@@ -71,5 +71,5 @@ A more complex example... This graph allows you to find contours of blood celles
 - morpho_transform : in mode erode, to close all the contours;
 - find_contours2 : detect the contours, put them in a list, and trace the contours in green on the original (RGB) image.
 Finally the image with contours traces is diplayed, as well as the number of contours (the number of detected cells).
-cv2_count_objects.png
+![cv2_count_objects](https://github.com/user-attachments/assets/cefb00cd-0eee-4c8b-84b6-faa4bb355338)
 
