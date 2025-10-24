@@ -4,6 +4,8 @@ An educational OpenCV node pack for Nodezator (https://nodezator.com/)
 ### Objective
 This node pack was created to serve as a basic tool for discovering image processing. It is intended for introductory activities and workshops for high school and undergraduate students (not necessarily in science and technology). 
 The number of nodes is deliberately limited, focusing on a few fundamental elements of image processing: grayscale conversion, filters, morphological transformations, edge detection. They are enough to practice some activities like counting elements such as cells, debris, fibers in a not too complex photo.
+Below is a photo taken while using this Nodezator node pack during an image processing discovery activity for high school students.
+![EL25_01_Nodezator_light](https://github.com/user-attachments/assets/d816fe57-d8d3-4350-b020-4e4ef48538df)
 
 ### Why Nodezator ?
 Nodezator was chosen as the development base due to the simplicity of the interface for students (a simplified menu, a single editing window) and the ease of implementing nodes for the developer. Finally, the ability to generate Python code in the form of a program allows more advanced programming students to rework it outside of the workshop.
